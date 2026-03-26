@@ -1,0 +1,11 @@
+name: Build plan (MVP)
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  generate-plan:
+    name: Generate plan
+    uses: javierdelapuente/mvp-workflows/.github/workflows/generate-plan.yaml@main
