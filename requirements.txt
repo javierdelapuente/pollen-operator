@@ -1,0 +1,5 @@
+--no-binary=:none:
+--only-binary=:all:
+ops~=3.0
+pydantic~=2.11
+cosl~=1.0
