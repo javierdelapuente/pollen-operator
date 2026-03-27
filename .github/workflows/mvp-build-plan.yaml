@@ -1,9 +1,10 @@
-name: Build plan (MVP)
+name: MVP integration tests
 
 on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   mvp:
